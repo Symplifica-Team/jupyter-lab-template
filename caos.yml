@@ -1,0 +1,11 @@
+virtual_environment: venv
+
+dependencies:
+  pandas: latest
+  numpy: latest
+  jupyterlab: latest
+
+tasks:
+  jupyterlab:
+    - echo Iniciando jupyterlab...
+    - caos python -m jupyter lab --notebook-dir=notebooks
